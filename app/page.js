@@ -4,9 +4,9 @@ import { motion, useScroll, useSpring, useMotionValue, useMotionTemplate, Animat
 import confetti from 'canvas-confetti';
 
 // --- AYARLAR ---
-const KIZ_ARKADAS_ISMI = "Sevgili Zübeyde"; 
+const KIZ_ARKADAS_ISMI = "Sevgilim Rabia"; 
 const SENIN_ADIN = "Oguzhan";
-const ILK_TANISMA_TARIHI = "2025-12-10"; 
+const ILK_TANISMA_TARIHI = "2025-12-24"; 
 
 // --- FOTOĞRAFLAR ---
 const FOTOGRAFLAR = [
@@ -418,9 +418,9 @@ export default function Home() {
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-4 md:px-0">
-            <Card3D delay={0.1} icon="💅 👑" title="Havan" text="Kabul edelim, biraz fazla tatlısınnnnn... Bu sana o kadar çok yakışıyor ki! O nazın, o cilven, o pasif agresif tutumlarınnn.... Sen benim başımın en tatlı belası(aslında ben senın), hayatımın en güzel rengisin. :))))" />
-            <Card3D delay={0.3} icon="✨" title="'Sen' olman..." text="Tarif etmesi zor bir şey bu.Bazen her şey için asıl olduğun kişi yeter işte, seninkide  yetiyor. Bu anlatıalcak bir şey değil, yani sadece her şeyiyle sen olduğun için..." />
-            <Card3D delay={0.5} icon="🎯" title="Uyumumuz" text="Zamanın nasıl geçtiğini anlamıyorum bile, zaman öyle hızlı geçiyor kiii......Bazen susarak da anlaşıyoruz. İçinden geçenleri asla soylememen bile çok tatlı. Zekana ve olaylara bakışına bayılıyorum..ilişki ve değer verme anlayışına da tabi. Güzel Bir gelecek bizi bekliyooorrrrr......" />
+            <Card3D delay={0.1} icon="💅 👑" title="Havan" text="Kabul edelim, biraz fazla tatlısınnnnn... Bu sana o kadar çok yakışıyor ki! O nazın, o cilven, o pasif agresif tutumlarınnn. Aklına her şeyi takııışın ve tamamen ben gibi olman. yanındayken başkası olmama gerek  yok, ki senınde aynı sekılde.... Sen benim başımın en tatlı belası(aslında ben senın), hayatımın en güzel rengisin. :))))" />
+            <Card3D delay={0.3} icon="✨" title="'Sen' olman..." text="Tarif etmesi zor bir şey bu.Bazen her şey için asıl olduğun kişi yeter işte, seninkide  yetiyor. Bu anlatıalcak bir şey değil, yani sadece her şeyiyle sen olduğun için... Mesela her mimiğin her tonlaman her vurgun için. Mesela sevgi denilen şeyi sonuna kadar bildiğin için. Sen olduğun için..." />
+            <Card3D delay={0.5} icon="🎯" title="Uyumumuz" text="Zamanın nasıl geçtiğini anlamıyorum bile, zaman öyle hızlı geçiyor kiii......Bazen susarak da anlaşıyoruz. İçinden geçenleri asla soylememen bile çok tatlı(ben anlıyorum inkar etsen de sdkjnfsd). Zeki birisin ve yaşadığın hayatı çok iyi anlıyorum, olduğu kişiyi de..ilişki ve değer verme anlayışına da tabi. Güzel Bir gelecek bizi bekliyooorrrrr......" />
           </div>
         </section>
 
@@ -440,14 +440,14 @@ export default function Home() {
             {!isAccepted ? (
               <div className="relative z-10 space-y-12">
                 <h2 className="text-4xl md:text-6xl font-bold leading-tight">
-                  Hayallerimiz sadece akılda kalmasın,<br/>
+                  Hayallerimiz sadece akılda kalmasın,isteklerimiz ,arzularımız..<br/>
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-pink-400 filter drop-shadow">
-                   o geleceği birlikte var edelim
+                   o geleceği birlikte var edelim, hepsini birer birer beraber inşa edelim?
                   </span>
                 </h2>
                 
                 <p className="text-pink-200/80 text-lg md:text-xl max-w-2xl mx-auto font-light">
-                  Seninle her şey çok daha anlamlı, çok daha güçlü.Benimle bu hayata ve geleceğe var mısın?
+                  Seninle her şey çok daha anlamlı, çok daha güçlü.Her şey seninle gerçek ve değerli, bunu anlıyorum sevgilim.Benimle bu hayata ve geleceğe var mısın?
                 </p>
 
                 <motion.button
@@ -473,10 +473,10 @@ export default function Home() {
                   Harika Karar!
                 </h2>
                 <p className="text-xl text-pink-200">
-                  İyi ki Varsın, İyi ki Biziz! <br/>
+                  İyi ki Varsın, İyi ki Biziz! iyi ki sevgilimsin.. seni çoookkk seviyoruuummmm. <br/>
                   Seninle bu yola çıkmak, geleceği düşünmek bile beni dünyanın en şanslı insanı yapıyor. <br/>
                   Varlığınla hayatıma kattığın anlam paha biçilemez. şimdi ve daima... 💖                 
-                  Sonsuza dek...
+                  Sonsuza dek senininm...
                 </p>
                 <div className="text-sm text-pink-400/60 mt-4">
                   (Ekranına yağan çiçeklerin tadını çıkar... 😊)
